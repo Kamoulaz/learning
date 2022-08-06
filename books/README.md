@@ -2,7 +2,8 @@
 
 This folder contains summaries of books, examples and exercises in the following topics:
 
-*** Digital design
-*** Electronics
-*** Embedded
-*** Signal processing
+1. Digital design
+  1. Digital logic and microprocessor design with VHDL [www.google.com]
+2. Electronics
+3. Embedded
+4. Signal processing
