@@ -12,7 +12,13 @@ Below is the summary of the book.
 # Summary
 
 ## Chapter one
-### overview
+
+<br/>
+
+### Overview
+
+<br/>
+
 This chapter serves as an overview of the book's goal (designing microprocessors) and the structure of the book.
 ![Microprocessor design](figures/F1.0.png "Microprocessor design")
 
@@ -20,4 +26,30 @@ If you have assembled a PC before, you probably bought memory sticks, CPU, mothe
 
 This book teaches how to design Microprocessors from ground up. Microprocessors are in the heart of any smart devices which are capable of making decision and controls. Those microprocessors are inside your car, TV... and even a greeting card.
 
-There are two types of Microprocessors: general purpose microprocessors and dedicated microprocessors. General purpose microprocessors can perform different tasks depending on the control of the software instructions meanwhile dedicated microprocessors perform on
+There are two types of Microprocessors: general purpose microprocessors and dedicated microprocessors. General purpose microprocessors can perform different tasks depending on the control of the software instructions meanwhile dedicated microprocessors perform one specific task. Dedicated microprocessors are called ASIC and they are being used in a lot of application like the Anti Lock system in the Car breaks, Microwave ovens and lots of application.
+
+General purpose Microprocessors are powerful and they are being used in personal computers. This book will provide the fundamentals to understand how CPUs are designed.
+
+<br/>
+
+### Overview of a microprocessor
+
+<br/>
+
+The Von Neumann model of a computer (as shown below) consists of memory, IO, and a Microprocessor. All the parts that you see in a computer fall under on of those categories. The monitor and speaker for example are IO, the ROM, RAM, and Hard drive are memory and all of that beside the CPU which is a Microprocessor.
+
+<p align="center">
+  <img src="figures/F1.1.png" />
+</p>
+
+<br/>
+
+As we are going to design microprocessors we will take a look inside the internals that make up one. A microprocessor (as shown below) consists of two major parts : datapath and control unit. The datapath is responsible for the actual execution of all data operations inside the microprocessor like the addition of two numbers inside the ALU. The datapath consists of functional units like ALU for arithmetic operations, registers for temporary storage, multiplexers for data source selections and datalines that passes the data from one functional unit to another.
+
+<br/>
+
+<p align="center">
+  <img src="figures/F1.2.png" />
+</p>
+
+<br/>
