@@ -53,3 +53,9 @@ As we are going to design microprocessors we will take a look inside the interna
 </p>
 
 <br/>
+
+Even though the datapath is capable of executing all the microprocessor operations through its functional units, it can not do it alone. A controller is needed to control the movement of the data and the execution order in the datapath. The controller is a Finite State Machine because it performs the control over the dapath by going from a state to another where there are a finite number of states.
+
+<br/>
+
+
